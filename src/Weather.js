@@ -66,7 +66,7 @@ export default function Weather() {
       </div>
       <small>
         <a
-          href="https://github.com/belk1130/weather-app-project"
+          href="https://github.com/belk1130/weather-react"
           target="_blank"
           rel="noreferrer"
         >
