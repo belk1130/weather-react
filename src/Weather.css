@@ -24,11 +24,6 @@ li {
   text-decoration: none;
 }
 
-.Weather .float-left {
-  position: relative;
-  top: -20px;
-}
-
 .Weather {
   background: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
   border: 1px solid #5a6aca;
@@ -54,10 +49,11 @@ li {
   opacity: 0.7;
 }
 
-.Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.Weather .clearfix-weather-temperature img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 25px;
 }
 .Weather .weather-temperature strong {
   color: rgb(33, 33, 33);
@@ -75,8 +71,16 @@ li {
   text-decoration: none;
 }
 
-.Weather .weather-temperature .units {
+.Weather .WeatherTemperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  font-size: 20px;
+  top: -15px;
+}
+
+.Weather .WeatherTemperature {
+  color: #5c5470;
+  font-size: 50px;
+  position: relative;
+  top: -60px;
+  right: -100px;
 }
